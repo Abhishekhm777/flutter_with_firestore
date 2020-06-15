@@ -21,7 +21,7 @@ class _SignInState extends State<SignIn> {
       appBar: AppBar(
         actions: <Widget>[
           FlatButton.icon(onPressed: (){
-                
+                widget.toggleView();
           },
            icon: Icon(Icons.person),
             label: Text('Register'))
@@ -60,6 +60,7 @@ class _SignInState extends State<SignIn> {
                 onPressed: () async {
                     print(email);
                      print(password);
+                     _authService.sugnOut();
                 },
               ),
             ],
