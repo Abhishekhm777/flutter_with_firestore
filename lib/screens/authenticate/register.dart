@@ -27,7 +27,7 @@ class _RegisterState extends State<Register> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Sign-up to BrewCrew'),
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Colors.brown[600],
          actions: <Widget>[
           FlatButton.icon(onPressed: (){
                  widget.toggleVeiw();

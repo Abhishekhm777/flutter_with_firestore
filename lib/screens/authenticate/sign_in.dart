@@ -35,7 +35,7 @@ class _SignInState extends State<SignIn> {
             label: Text('Register'))
         ],
         title: Text('Sign In to BrewCrew'), 
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Colors.brown[600],
       ),
       body: Container(
         padding:EdgeInsets.symmetric(vertical:20.0,horizontal:50.0),
